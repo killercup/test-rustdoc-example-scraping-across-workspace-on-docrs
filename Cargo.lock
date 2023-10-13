@@ -8,7 +8,7 @@ version = "0.1.1-withdocsrssettings"
 
 [[package]]
 name = "test_61a7cd7f28e0"
-version = "0.1.1-withdocsrssettings"
+version = "0.1.2-withdocsrssettings"
 dependencies = [
  "test_40a48f47864a",
  "test_7018a98a70c0",

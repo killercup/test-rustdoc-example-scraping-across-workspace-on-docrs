@@ -1,6 +1,6 @@
 [package]
 name = "test_61a7cd7f28e0"
-version = "0.1.1-withdocsrssettings"
+version = "0.1.2-withdocsrssettings"
 edition = "2021"
 authors = ["Pascal Hertleif"]
 description = "testing scraping examples"
@@ -15,3 +15,11 @@ members = ["crates/*"]
 
 [package.metadata.docs.rs]
 cargo-args = ["-Zunstable-options", "-Zrustdoc-scrape-examples"]
+
+[[example]]
+name = "one"
+doc-scrape-examples = true
+
+[[example]]
+name = "two"
+doc-scrape-examples = true
