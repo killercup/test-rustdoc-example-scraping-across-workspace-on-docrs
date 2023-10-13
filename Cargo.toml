@@ -1,0 +1,14 @@
+[package]
+name = "test_61a7cd7f28e0"
+version = "0.1.0-nodocsrssettings"
+edition = "2021"
+authors = ["Pascal Hertleif"]
+description = "testing scraping examples"
+license = "MIT"
+
+[dependencies]
+test_40a48f47864a = { path = "crates/test_40a48f47864a", version = "0.1.0" }
+test_7018a98a70c0 = { path = "crates/test_7018a98a70c0", version = "0.1.0" }
+
+[workspace]
+members = ["crates/*"]

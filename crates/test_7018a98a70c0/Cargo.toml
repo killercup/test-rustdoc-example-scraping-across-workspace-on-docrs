@@ -1,0 +1,9 @@
+[package]
+name = "test_7018a98a70c0"
+version = "0.1.0"
+edition = "2021"
+authors = ["Pascal Hertleif"]
+description = "testing scraping examples"
+license = "MIT"
+
+[dependencies]
