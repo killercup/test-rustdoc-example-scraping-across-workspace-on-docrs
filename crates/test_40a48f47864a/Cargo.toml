@@ -1,9 +1,12 @@
 [package]
 name = "test_40a48f47864a"
-version = "0.1.0"
+version = "0.1.1-withdocsrssettings"
 edition = "2021"
 authors = ["Pascal Hertleif"]
 description = "testing scraping examples"
 license = "MIT"
 
 [dependencies]
+
+[package.metadata.docs.rs]
+cargo-args = ["-Zunstable-options", "-Zrustdoc-scrape-examples"]

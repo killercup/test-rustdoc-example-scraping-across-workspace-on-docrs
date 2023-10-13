@@ -4,11 +4,11 @@ version = 3
 
 [[package]]
 name = "test_40a48f47864a"
-version = "0.1.0"
+version = "0.1.1-withdocsrssettings"
 
 [[package]]
 name = "test_61a7cd7f28e0"
-version = "0.1.0-nodocsrssettings"
+version = "0.1.1-withdocsrssettings"
 dependencies = [
  "test_40a48f47864a",
  "test_7018a98a70c0",
@@ -16,4 +16,4 @@ dependencies = [
 
 [[package]]
 name = "test_7018a98a70c0"
-version = "0.1.0"
+version = "0.1.1-withdocsrssettings"
