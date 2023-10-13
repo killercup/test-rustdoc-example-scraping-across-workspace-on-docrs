@@ -1,6 +1,6 @@
 [package]
 name = "test_61a7cd7f28e0"
-version = "0.1.0-nodocsrssettings"
+version = "0.1.0-withdocsrssettings"
 edition = "2021"
 authors = ["Pascal Hertleif"]
 description = "testing scraping examples"
@@ -12,3 +12,6 @@ test_7018a98a70c0 = { path = "crates/test_7018a98a70c0", version = "0.1.0" }
 
 [workspace]
 members = ["crates/*"]
+
+[package.metadata.docs.rs]
+cargo-args = ["-Zunstable-options", "-Zrustdoc-scrape-examples"]
