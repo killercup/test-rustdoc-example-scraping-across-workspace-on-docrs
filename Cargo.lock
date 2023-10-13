@@ -5,10 +5,12 @@ version = 3
 [[package]]
 name = "test_40a48f47864a"
 version = "0.1.1-withdocsrssettings"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "80a4fd3c10982d46ae7b793655c92c42c38846b9146d2e735f3099d457ac721b"
 
 [[package]]
 name = "test_61a7cd7f28e0"
-version = "0.1.2-withdocsrssettings"
+version = "0.1.3-withoutpathdeps"
 dependencies = [
  "test_40a48f47864a",
  "test_7018a98a70c0",
@@ -17,3 +19,5 @@ dependencies = [
 [[package]]
 name = "test_7018a98a70c0"
 version = "0.1.1-withdocsrssettings"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "7414ed81c2a39360d4d11010fc36dc024f9740489adfe8f9c9e0430ae114693e"
